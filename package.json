@@ -1,0 +1,26 @@
+{
+  "name": "tau_api_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanimussio/tau_api_testing.git"
+  },
+  "author": "Giovani Mombelli Mussio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovanimussio/tau_api_testing/issues"
+  },
+  "homepage": "https://github.com/giovanimussio/tau_api_testing#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "nock": "^13.1.1",
+    "supertest": "^6.1.4"
+  }
+}
